@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Individual project: PWA
+## Progressive Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. [Assignment Description] (# 1 Assignment Description)
+1. [Submission] (# 2 submission)
+1. [Rating] (# 3 rating)
 
-## Available Scripts
 
-In the project directory, you can run:
+---
+### 1. Assignment description
+You will build a PWA that combines the techniques we have gone through in the course.
 
-### `npm start`
+The app will be published online with https://surge.sh/ which we used in the course. It should use React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Compatibility
+Because PWA is a relatively new technology, with incomplete support in different browsers and on different platforms; it is difficult to achieve 100% support for all features. The submissions will be tested on a Windows computer with Chrome and Firefox. If you are unsure whether your app will work, you can report the swaying bits in lesson time to the teacher.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Appen: Instablam
+* These are the requirements that your app must meet. *
 
-### `npm run build`
+Instablam should be a PWA, which the user can use to take pictures with their mobile, or computer with camera. When you take a picture, it should be saved in a gallery in the app. Along with the photo, you should save information about when it was taken, and at what location. If the user does not allow location information, it must be clear in the image that the app does not know where it was taken.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The user should be able to browse the gallery, delete individual images, download an image. There must be at least two images in the gallery when the app starts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+** VG **: Try using reverse geocoding to show the nearest location, instead of latitude and longitude.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+** VG **: Function for the app to wait 3 seconds and then take a picture. When the picture is taken, a notification should be displayed.
 
-### `npm run eject`
+** VG **: The app's files and captured images are cached, so the user can view them even in offline mode.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Test your app
+Use more than one browser when testing your app. Feel free to collaborate with classmates so that you can test your apps in as many different environments as possible.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Remember that you can also test the app with the Lighthouse setting Progressive Web App.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+---
+### 2. Submission
+Your project should be a GitHub repo. Write the link to both the GitHub repot and the published app as a comment on the submission.
+Tell us briefly about your app and the most important features. Zip the entire repot (except `node_modules /` and `.git /`) and upload to LearnPoint.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+** Tip! ** You should use the zip format to compress the files. The easiest way is to download a zip archive from GitHub.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+---
+### 3. Assessment
+** For approved ** on the project, the app must
+1. Submitted correctly (published online, public repo on GitHub, zipped and uploaded to LearnPoint)
+1. Be an installable PWA, using Geolocation and MediaDevices
+1. The app meets the specs under the heading "The app: Instablam"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+** Too approved ** on the project, the app must
+1. Use the Notification API
+Be able to use offline, with the help of a service worker
+1. taking into account accessibility
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+*Good luck!*
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Top of page] (# 1 introduction)
